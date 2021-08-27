@@ -24,7 +24,9 @@ function calArea() {
     rate = partArea / matArea
     qty = Math.ceil(rate)
 
-    document.getElementById('output').innerText = `You need ${qty} slabs`
-    console.log(`You need ${qty} slabs`)
+    quantifier = (qty == 1) ? 'slab' : 'slabs';
+
+    document.getElementById('output').innerText = `You need ${qty} ${quantifier}`
+    console.log(`You need ${qty} ${quantifier}`)
   }
 }
