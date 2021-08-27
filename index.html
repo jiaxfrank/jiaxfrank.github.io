@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="container" style="text-align: center;">
+    <h3>20mm test Material calculator</h3>
+    <img src="./L-shape.png" alt="L-shape" style="width: 200px;">
+    <p>Design dimensions</p>
+    <input type="number" id="a" placeholder="length of a"><br>
+    <input type="number" id="b" placeholder="length of b"><br>
+    <input type="number" id="c" placeholder="length of c"><br>
+    <input type="number" id="d" placeholder="length of d"><br>
+
+    <p>Material dimensions</p>
+    <input type="number" id="x" placeholder="length"><br>
+    <input type="number" id="y" placeholder="width"><br>
+
+    <input type="button" value="Calculate" onclick="calArea()">
+
+    <h6 id="output"></h6>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+
+</html>
